@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_gravity="center">
+
+        <ImageView android:layout_width="239dp"
+                   android:layout_height="84dp"
+                   android:src="@drawable/mercado"
+                   android:text="MERCADO LIVRE"
+                   android:id="@+id/imgMercadoLivre"
+                   android:layout_gravity="center"/>
+
+        <ImageView android:layout_width="239dp"
+                   android:layout_height="84dp"
+                   android:src="@drawable/netshoes"
+                   android:id="@+id/imgNetshoes"
+                   android:layout_gravity="center"/>
+
+        <ImageView android:layout_width="239dp"
+                   android:layout_height="84dp"
+                   android:text="Netshoes"
+                   android:id="@+id/imgBuscape"
+                   android:src="@drawable/buscape"
+                   android:layout_gravity="center"/>
+
+        <ImageView android:layout_width="239dp" android:layout_height="84dp"
+                   android:text="Netshoes"
+                   android:id="@+id/imgAmericanas"
+                   android:src="@drawable/americanas"
+                   android:layout_gravity="center"/>
+
+        <ImageView android:layout_width="239dp" android:layout_height="84dp"
+                   android:text="Netshoes"
+                   android:id="@+id/imgEbay"
+                   android:src="@drawable/ebay"
+                   android:layout_gravity="center"/>
+
+        <ImageView android:layout_width="239dp" android:layout_height="84dp"
+                   android:text="Netshoes"
+                   android:id="@+id/imgMagalu"
+                   android:src="@drawable/magalu"
+                   android:layout_gravity="center"/>
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:text="SOBRE"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:id="@+id/btSobre"
+                android:textColor="#F5F42615"/>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
